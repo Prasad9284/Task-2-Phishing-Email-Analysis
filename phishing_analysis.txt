@@ -1,0 +1,23 @@
+Phishing Email Analysis Report
+
+Sample Source:
+Proofpoint Threat Reference – https://www.proofpoint.com/us/threat-reference/phishing
+
+Sender Email:
+GlobalPayVYT@globalpay.com
+
+Suspicious Indicators:
+1. Spoofed sender address with extra characters ("VYT").
+2. Contains HTML attachment (update2816.html) that may contain credential stealing form.
+3. Urgent language – "Your account has been restricted."
+4. Generic greeting – "Dear customer" instead of user’s name.
+5. Poor formatting – not matching professional company standards.
+
+Risk Level:
+HIGH – Possible credential theft and malware distribution.
+
+Recommendations:
+- Do not open attachments from unknown senders.
+- Verify sender’s email domain.
+- Analyze email headers for mismatches.
+- Educate users on phishing traits.
